@@ -3,32 +3,44 @@ was introduced?
 
     I am using Windows and I use "FC" command
 
+
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
-    use Git, a version control system
+    It could let me experiment my code, and easily revert back to working
+    version in the past and make comparison to inspect what goes wrong.
+
 
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
 
     pro: I can have more control over the files history
-    con: more troublesome
+    con: more troublesome as it introduce more works
+
 
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
 
-    It is more efficient
+    It is more efficient to save multiple files in one commit
+
 
 How can you use the commands git log and git diff to view the history of files?
 
-    no idea
+    git log: I could inspect the past ID with brief description of the changes,
+      and quickly checkout the older version
+    git diff: I could compare two commits to view the differences.
+
 
 How might using version control make you more confident to make changes that
 could break something?
 
-    I could always revert back to older file
+    I could always revert back to older file with version control, as well as
+    creating new branch and do some experiment in my codes
+
 
 Now that you have your workspace set up, what do you want to try using Git for?
 
-    to do version control :)
+    The first thing I may do is to upload my current working program into GitHub
+    once I complete the course, and start to experiment different code
+    implementation with the power of version control
