@@ -1,32 +1,46 @@
 What happens when you initialize a repository? Why do you need to do it?
-Answer: it creates an area for us to commit changes and do version control
+
+    it creates an area for us to commit changes and do version control
+
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-Answer: Staging area is a place to store files to be committed to repository.
-I think it acts like a cache area for us to commit all coherent files all at once
+
+    Answer: Staging area is a place to store files to be committed to
+    repository. I think it acts like a cache area for us to commit all coherent
+    files all at once
+
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-Answer: use the command "git diff --staged" compare files between staging area
-and repository
+
+    Use the command "git diff --staged" compare files between staging area
+    and repository
+
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-Answer: When you want to do some experimental changes. It will help you
-experiment the code while keeping the original copy
+
+    When you want to do some experimental changes. It will help you
+    experiment the code while keeping the original copy
+
 
 How do the diagrams help you visualize the branch structure?
-Answer: it lets us understand the possible branches
+
+    It lets us understand the possible branches
+
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-Answer: we would like to combine work from both branch and finalize it into
-one. In the diagram it will be like a single branch, but break into O-shape
-in the middle
+
+    We would like to combine work from both branch and finalize it into one.
+    In the diagram it will be like a single branch, but break into O-shape
+    in the middle
+
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
-Answer: auto merge help us save time, but sometime it may duplicate same
-function with different name. Merge manually can identify which function
-to keep, but it is time consuming.
+
+    Auto merge help us save time, but sometime it may duplicate same function
+    with different name. Merge manually can identify which function to keep,
+    but it is time consuming.
